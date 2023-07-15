@@ -1,0 +1,23 @@
+---
+title: "Fitting the standard DDM to Ella's Task"
+author: Brenden Eum
+date: July 10, 2023
+output: 
+  html_document: 
+    theme: united
+    toc: yes
+    toc_float: yes
+    toc_depth: 2
+    number_sections: yes
+    code_folding: hide
+    df_print: default
+---
+
+This notebook will fit the standard Drift-Diffusion-Model (DDM) to Ella's slot machine data.
+
+
+```{r}
+plot(cars)
+```
+
+
