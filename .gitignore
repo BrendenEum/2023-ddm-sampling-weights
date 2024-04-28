@@ -2,6 +2,9 @@
 .Rproj.user
 .Rhistory
 .Ruserdata
+*.hdf5
+*.psydat
+*.log
 *.rds
 Rplots.pdf
 _book
@@ -12,6 +15,7 @@ __pycache__
 */.ipynb_checkpoints/*
 *.pyc
 /dist/
+/data/
 /*.egg-info
 nipype_mem
 nilearn_cache
@@ -20,10 +24,14 @@ nilearn_cache
 .pem
 tmp*
 *.mat
+*.csv
+*.xlsx
 mcmc_chains/
 figure-html/
+Analysis/outputs/temp/
 test*
 *.asc
+*.edf
 .vscode/
 *.db
 config.txt
